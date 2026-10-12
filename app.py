@@ -131,17 +131,17 @@ Variance               0.051   0.001
 Cumulative % of var.  97.796   100.000
 
 Rows
-                 Iner*1000    Dim.1   ctr   cos2    Dim.2  ctr    cos2
-Moisturizer    |     7.033 | -0.151 13.234  0.960 | -0.031 24.246  0.040 |
-Sunscreen      |    12.581 |  0.205 24.284  0.985 | -0.025 16.265  0.015 |
-Serum          |    22.316 | -0.350 43.354  0.992 |  0.032 16.473  0.008 |
-Cleanser       |    10.257 |  0.206 19.128  0.952 |  0.046 43.016  0.048 |
+                  Iner*1000   Dim.1     ctr     cos2      Dim.2     ctr     cos2
+Moisturizer     |   7.033 |  -0.151   13.234   0.960  |  -0.031   24.246   0.040 |
+Sunscreen       |  12.581 |   0.205   24.284   0.985  |  -0.025   16.265   0.015 |
+Serum           |  22.316 |  -0.350   43.354   0.992  |   0.032   16.473   0.008 |
+Cleanser        |  10.257 |   0.206   19.128   0.952  |   0.046   43.016   0.048 |
 
 Columns
-                  Iner*1000   Dim.1  ctr    cos2     Dim.2   ctr    cos2
-Muda (18-25)   |    29.909 | -0.281 58.516  0.999 |  0.011  3.779  0.001 |
-Dewasa (26-40) |    4.600  |  0.107  7.710  0.855 | -0.044 57.864  0.145 |
-Tua (>40)      |    17.679 |  0.249 33.774  0.975 |  0.040 38.357  0.025 |
+                Iner*1000     Dim.1    ctr    cos2        Dim.2    ctr     cos2
+Muda (18-25)   |   29.909 |  -0.281   58.516  0.999   |   0.011   3.779   0.001 |
+Dewasa (26-40) |   4.600  |   0.107   7.710   0.855   |  -0.044   57.864  0.145 |
+Tua (>40)      |   17.679 |   0.249   33.774  0.975   |   0.040   38.357  0.025 |
 NULL
   """)
 
@@ -189,8 +189,8 @@ print(res.ca2$col$contrib)
   """, language = "r")
   st.text("""
 "--- Eigenvalues ---"
-eigenvalue percentage of variance cumulative percentage of variance
-dim 1 0.009550963  100  100
+      eigenvalue      percentage of variance     cumulative percentage of variance
+dim1 0.009550963               100                              100
 
 "--- Koordinat Baris (Tipe Produk) ---"
 Moisturizer   Sunscreen     Serum     Cleanser
