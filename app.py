@@ -160,7 +160,7 @@ fviz_ca_biplot(res.ca1,
   * **Serum & Muda (18–25):** Memiliki kedekatan koordinat yang kuat, menunjukkan usia muda menggemari produk Serum.
   * **Moisturizer:** Tipe produk tidak memiliki kedekatan koordinat yang kuat, namun tipe ini terletak di antara kelompok muda dan dewasa.
   * **Sunscreen:** Berada relatif dekat dengan kelompok usia dewasa.
-  * **Cleanser:** Berada relatif dekat dengan kelompok Usia Tua.
+  * **Cleanser:** Berada relatif dekat dengan kelompok usia Tua.
   """)
   st.markdown("---")
 
