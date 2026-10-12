@@ -190,7 +190,7 @@ print(res.ca2$col$contrib)
   st.text("""
 "--- Eigenvalues ---"
       eigenvalue      percentage of variance     cumulative percentage of variance
-dim1 0.009550963               100                              100
+dim1 0.009550963               100                                   100
 
 "--- Koordinat Baris (Tipe Produk) ---"
 Moisturizer   Sunscreen     Serum     Cleanser
@@ -201,8 +201,8 @@ Pria   -0.09934449
 Wanita  0.09613983
 
 "--- Koordinat Tiap Kategori ---"
-Moisturizer  Sunscreen    Serum      Cleanser
-0.8305247   50.2416205  10.4864236  38.4414312
+Moisturizer    Sunscreen      Serum        Cleanser
+0.8305247      50.2416205    10.4864236    38.4414312
 
 Pria   50.81967
 Wanita 49.18033
